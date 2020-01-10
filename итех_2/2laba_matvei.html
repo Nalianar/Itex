@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Две колонки</title>
+  <link href="style.css" rel="stylesheet">
+  <style type="text/css">
+
+	  
+	  
+	  .slide {
+  background-color: yellow;
+  border: solid #777;
+  border-width: 2px 2px 2px 0;
+  height: 80px;
+  line-height: 90px;
+  margin: 16px 0 0 -170px;
+  position: fixed;
+  text-align: center;
+  width: 200px;
+  -moz-transition: margin 1s;
+  -o-transition: margin 1s;
+  -webkit-transition: margin 1s;
+  transition: margin 1s;
+}
+
+.slide:hover {
+  margin-left: 0;
+}
+
+.slide .slide-content {
+  float: left;
+  width: 170px;
+}
+
+.slide .slide-header {
+  float: right;
+  width: 30px;
+  font-color:black;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  transform: rotate(-90deg);
+}
+
+.slide:hover .slide-header {
+  opacity: 0;
+}
+}
+  </style>
+ </head>
+ <body bgcolor="#FFFAF0">
+
+	
+	
+	 <div class="slide">
+<a href="https://nure.ua/ru/"><div class="slide-content"><img height="40px" src="http://antivirus.ua/sites/default/files/2017-03/edu-nure.png" style="float:left;padding-top:10%;">Сайт хнуре</div></a>
+<div class="slide-header">Contacts</div>
+  </div>
+	
+	
+	
+  <table width="100%" cellspacing="0" cellpadding="5">
+	<tr width="100%" bgcolor="#FAEBD7">
+	
+	<th>&nbsp;</th><th>	<div style="position:absolute; top:40px; left:40%">Шапка</div></th><th>&nbsp</th>
+	</tr>
+	<tr width="100%" bgcolor="#FAEBD7">
+	
+	<th>&nbsp;</th>
+	<th>
+	</th>
+	<th>&nbsp</th>
+	</tr>
+   <tr> 
+    <td width="30%" valign="top"></center></td>
+	<td valign="top">
+	<h1 style="color:grey; text-align:center;">4 вариант</h1>
+  <div class="layer1">
+	текст float
+  </div>
+  <div id="layer2">
+   текст не флоат
+  </div>
+  <br>
+
+	</td>
+	<td width="30%"valign="top"></td>
+   </tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Laba-3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="media/ico.png">
+</head>
+<body>
+	
+	<h3>Вариант №2</h3>
+
+	<div class="buttons">
+		<button title="Нажмите кнопку U" onclick="onclickUp()">Выше</button>
+		<button title="Нажмите кнопку D" onclick="onclickDown()">Ниже</button>
+		<select name="select" id='select' onchange="selectSize(this)">
+			<option value="450">Width 450px</option>
+			<option value="400">Width 400px</option>
+			<option value="300">Width 300px</option>
+			<option value="200">Width 200px</option>
+			<option value="100">Width 100px</option>
+		</select>
+	</div>
+	
+	<div class="images">
+		<img src="media/1.jpg" class="img" id="1" onclick="selectImg(this.id)">	
+		<img src="media/2.jpg" class="img" id="2" onclick="selectImg(this.id)">
+		<img src="media/3.jpg" class="img" id="3" onclick="selectImg(this.id)">
+		<img src="media/4.jpg" class="img" id="4" onclick="selectImg(this.id)">	
+		<img src="media/5.jpg" class="img" id="5" onclick="selectImg(this.id)">
+		<img src="media/6.jpg" class="img" id="6" onclick="selectImg(this.id)">
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
